@@ -54,25 +54,24 @@
         <!-- Slider main container -->
    <div class="swiper">
    <!-- Additional required wrapper -->
+   <!-- If we need pagination -->
+   <div class="swiper-pagination"></div>
    <div class="swiper-wrapper">
     <!-- Slides -->
     <div class="swiper-slide"><img src="IMG/ceifador.jpg" alt="ceifador"></div>
     <div class="swiper-slide"><img src="IMG/destruidor de mundos.jpg" alt="destruidor de mundos"></div>
+    <div class="swiper-slide"><img src="IMG/destruidor de espadas.jpg" alt="destruidor de espadas"></div>
     <div class="swiper-slide"><img src="IMG/maldição do mar.jpg" alt="maldição do mar"></div>
+    <div class="swiper-slide"><img src="IMG/lendarios.jpg" alt="lendarios"></div>
     <div class="swiper-slide"><img src="IMG/marcada com sangue.jpg" alt="marcada com sangue"></div>
     <div class="swiper-slide"><img src="IMG/nadia keane.jpeg" alt="nadia keane"></div>
     <div class="swiper-slide"><img src="IMG/nadia keane 2.jpeg" alt="nadia keane 2"></div>
     ...
     </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
-
     <!-- If we need navigation buttons -->
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
 
-   <!-- If we need scrollbar -->
-  <div class="swiper-scrollbar"></div>
    </div>
       </section>
       <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
@@ -80,6 +79,10 @@
         const swiper = new Swiper('.swiper', {
             spaceBetween: 10,
             slidesPerView: 3,
+            pagination: {
+              el: '.swiper-pagination',
+              type: 'bullets',
+            },
           }); 
       </script>
     </body>
