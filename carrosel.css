@@ -9,7 +9,7 @@
 }
 
 .swiper-slide img {
-    width: 70%;
+    width: 90%;
 }
 
 .swiper-button-prev, .swiper-button-next {
@@ -19,4 +19,8 @@
 .swiper-pagination {
     position: initial;
     margin: 1em 0;
+}
+
+.atlas__descrição {
+    display: flex;
 }
