@@ -23,6 +23,8 @@
 
 .atlas__descrição {
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
 }
 
 .atlas__botões {
@@ -32,7 +34,6 @@
 
 .botões {
     display: flex;
-    justify-content: center;
 }
 
 .atlas__descrição {
@@ -41,4 +42,32 @@
     border-radius: 10px;
     margin: 1em;
     padding: 1em;
+}
+
+.descrição__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.descrição__titulo-livro {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5 0em;
+    
+}
+
+.descrição__texto {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--preto);
+}
+
+.botões__item {
+    margin: 0 0.5em;
+}
+
+.botões__ancora {
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
 }
