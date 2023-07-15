@@ -24,3 +24,21 @@
 .atlas__descrição {
     display: flex;
 }
+
+.atlas__botões {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botões {
+    display: flex;
+    justify-content: center;
+}
+
+.atlas__descrição {
+    background: var(--cor-de-fundo);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
