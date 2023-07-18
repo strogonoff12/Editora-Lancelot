@@ -1,11 +1,12 @@
 .carrosel__titulo {
-    color: var(--laranja);
-    background-color: var(-branco);
+    color: var(--azul);
+    background-color: var(--cor-de-fundo);
     text-align: center;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 48px;
     font-weight: 700;
     padding: 1em 0 0.5em 0;
+    border-radius: 10px;
 }
 
 .swiper-slide img {
@@ -45,6 +46,7 @@
 .descrição__titulo {
     color: var(--laranja);
     font-weight: 700;
+    line-height: 24px;
 }
 
 .descrição__titulo-livro {
@@ -52,11 +54,12 @@
     font-size: 18px;
     font-weight: 700;
     margin: 0.5 0em;
+    line-height: 34px;
     
 }
 
 .descrição__texto {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
     color: var(--azul);
 }
