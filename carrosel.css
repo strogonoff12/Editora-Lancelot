@@ -37,11 +37,9 @@
 }
 
 .atlas__descrição {
-    background: var(--cor-de-fundo);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: var(--preto);
     border-radius: 10px;
-    margin: 1em;
-    padding: 1em;
 }
 
 .descrição__titulo {
@@ -50,7 +48,7 @@
 }
 
 .descrição__titulo-livro {
-    color: var(--azul);
+    color: var(--vermelho);
     font-size: 18px;
     font-weight: 700;
     margin: 0.5 0em;
@@ -60,14 +58,5 @@
 .descrição__texto {
     font-size: 18px;
     font-weight: 700;
-    color: var(--preto);
-}
-
-.botões__item {
-    margin: 0 0.5em;
-}
-
-.botões__ancora {
-    background-color: var(--laranja);
-    padding: 1em 2.2em;
+    color: var(--azul);
 }
