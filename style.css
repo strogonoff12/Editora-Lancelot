@@ -1,9 +1,10 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/carrosel.css");
+@import url("styles/topicos.css");
 
 :root{
-    --cor-de-fundo: #dadada;  
+    --cor-de-fundo: rgb(218, 218, 218);
     --vermelho: rgb(165, 14, 14);
     --branco: #ffffff;
     --laranja: #ffaa00;
